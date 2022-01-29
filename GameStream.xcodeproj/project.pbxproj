@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00488402795FEE80048E886 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A004883F2795FEE80048E886 /* Kingfisher */; };
+		A0048842279600850048E886 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048841279600850048E886 /* GameItem.swift */; };
+		A0048A5027920E0E0061E2B4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A4F27920E0E0061E2B4 /* MainView.swift */; };
+		A0048A52279210B20061E2B4 /* TabHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A51279210B20061E2B4 /* TabHolder.swift */; };
+		A0048A54279218370061E2B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A53279218370061E2B4 /* HomeView.swift */; };
+		A0048A5627921B470061E2B4 /* AppViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A5527921B470061E2B4 /* AppViews.swift */; };
+		A0048A5A279223240061E2B4 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A59279223240061E2B4 /* SearchBarView.swift */; };
+		A0048A5E279235490061E2B4 /* AppVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A5D279235490061E2B4 /* AppVideoPlayer.swift */; };
+		A0048A60279237720061E2B4 /* PopularsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0048A5F279237720061E2B4 /* PopularsView.swift */; };
+		A00BA24427933F1F0026ABB3 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BA24327933F1F0026ABB3 /* VideoItem.swift */; };
+		A00BA24627933FB00026ABB3 /* MayLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BA24527933FB00026ABB3 /* MayLikeView.swift */; };
+		A00BA24827933FF40026ABB3 /* RecomendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BA24727933FF40026ABB3 /* RecomendedView.swift */; };
+		A00BA24A279340260026ABB3 /* CategoriesRecomendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BA249279340260026ABB3 /* CategoriesRecomendedView.swift */; };
+		A00BA24C2793404E0026ABB3 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BA24B2793404E0026ABB3 /* CategoryItem.swift */; };
+		A02D831C27938A9C0055EEC0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02D831B27938A9C0055EEC0 /* Model.swift */; };
+		A02D831E27938AA70055EEC0 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02D831D27938AA70055EEC0 /* GamesViewModel.swift */; };
+		A0343FB4279B83C800F16CE4 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0343FB3279B83C800F16CE4 /* SwiftUIView.swift */; };
+		A0343FB6279B83D600F16CE4 /* SimpleVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0343FB5279B83D600F16CE4 /* SimpleVideoPlayer.swift */; };
+		A048071027A339C700CD6F27 /* FavoriteGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048070F27A339C700CD6F27 /* FavoriteGamesView.swift */; };
+		A048071227A33E8200CD6F27 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048071127A33E8200CD6F27 /* ProfileView.swift */; };
+		A048071427A33F9300CD6F27 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048071327A33F9300CD6F27 /* Texts.swift */; };
+		A048071627A34AD000CD6F27 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048071527A34ACF00CD6F27 /* SettingsButton.swift */; };
+		A048071827A34B0500CD6F27 /* SettingsToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048071727A34B0500CD6F27 /* SettingsToggleButton.swift */; };
+		A048071A27A34C9100CD6F27 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A048071927A34C9100CD6F27 /* EditProfileView.swift */; };
+		A0508974279F86DA005E1B97 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0508973279F86DA005E1B97 /* SearchViewModel.swift */; };
+		A0508976279F880C005E1B97 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0508975279F880C005E1B97 /* SearchResponse.swift */; };
+		A080B8B6279B6D1800B8747A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A080B8B5279B6D1800B8747A /* GameView.swift */; };
+		A089295A27A445C800A893AC /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089295927A445C800A893AC /* EditProfileViewModel.swift */; };
+		A089295C27A4461D00A893AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089295B27A4461D00A893AC /* User.swift */; };
+		A089295E27A44F5E00A893AC /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089295D27A44F5E00A893AC /* SUImagePickerView.swift */; };
 		A08BD71C278F6EAC00B153BC /* GameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD71B278F6EAC00B153BC /* GameStreamApp.swift */; };
 		A08BD71E278F6EAC00B153BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD71D278F6EAC00B153BC /* ContentView.swift */; };
 		A08BD720278F6EAD00B153BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08BD71F278F6EAD00B153BC /* Assets.xcassets */; };
 		A08BD723278F6EAD00B153BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08BD722278F6EAD00B153BC /* Preview Assets.xcassets */; };
+		A08BD72A278F73A300B153BC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08BD729278F73A300B153BC /* Colors.xcassets */; };
+		A08BD72C278F745200B153BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD72B278F745200B153BC /* Constants.swift */; };
+		A08BD72E278F74E400B153BC /* AppLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD72D278F74E400B153BC /* AppLogo.swift */; };
+		A08BD735278F78F200B153BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD734278F78F200B153BC /* LoginView.swift */; };
+		A08BD737278F790800B153BC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD736278F790800B153BC /* SignUpView.swift */; };
+		A08BD739278F79FB00B153BC /* LoginSingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD738278F79FB00B153BC /* LoginSingUpView.swift */; };
+		A08BD73B278F848B00B153BC /* AppTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BD73A278F848B00B153BC /* AppTextFields.swift */; };
+		A08C1472279CAD800042D62A /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C1471279CAD800042D62A /* VideoData.swift */; };
+		A08C1474279CAE600042D62A /* VideoGalleyImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C1473279CAE600042D62A /* VideoGalleyImages.swift */; };
+		A08C1476279CAF0F0042D62A /* SimilarGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C1475279CAF0F0042D62A /* SimilarGames.swift */; };
+		A0A751762790D13400BB06C5 /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A751752790D13400BB06C5 /* AppButtons.swift */; };
+		A0E52556279324B100172E54 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E52555279324B100172E54 /* Title.swift */; };
+		A0FBC1E827946A0B001FF1EF /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC1E727946A0B001FF1EF /* Games.swift */; };
+		A0FBC1EA27946A1D001FF1EF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC1E927946A1D001FF1EF /* Game.swift */; };
+		A0FBC1EC27946A37001FF1EF /* VideoUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC1EB27946A37001FF1EF /* VideoUrl.swift */; };
+		A0FBC1EE27946F2F001FF1EF /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBC1ED27946F2F001FF1EF /* GamesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0048841279600850048E886 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		A0048A4F27920E0E0061E2B4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A0048A51279210B20061E2B4 /* TabHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHolder.swift; sourceTree = "<group>"; };
+		A0048A53279218370061E2B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0048A5527921B470061E2B4 /* AppViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViews.swift; sourceTree = "<group>"; };
+		A0048A59279223240061E2B4 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A0048A5D279235490061E2B4 /* AppVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVideoPlayer.swift; sourceTree = "<group>"; };
+		A0048A5F279237720061E2B4 /* PopularsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularsView.swift; sourceTree = "<group>"; };
+		A00BA24327933F1F0026ABB3 /* VideoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
+		A00BA24527933FB00026ABB3 /* MayLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayLikeView.swift; sourceTree = "<group>"; };
+		A00BA24727933FF40026ABB3 /* RecomendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedView.swift; sourceTree = "<group>"; };
+		A00BA249279340260026ABB3 /* CategoriesRecomendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRecomendedView.swift; sourceTree = "<group>"; };
+		A00BA24B2793404E0026ABB3 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		A02D831B27938A9C0055EEC0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A02D831D27938AA70055EEC0 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		A0343FB3279B83C800F16CE4 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A0343FB5279B83D600F16CE4 /* SimpleVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVideoPlayer.swift; sourceTree = "<group>"; };
+		A048070F27A339C700CD6F27 /* FavoriteGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteGamesView.swift; sourceTree = "<group>"; };
+		A048071127A33E8200CD6F27 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A048071327A33F9300CD6F27 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		A048071527A34ACF00CD6F27 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		A048071727A34B0500CD6F27 /* SettingsToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToggleButton.swift; sourceTree = "<group>"; };
+		A048071927A34C9100CD6F27 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		A0508973279F86DA005E1B97 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A0508975279F880C005E1B97 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		A080B8B5279B6D1800B8747A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A089295927A445C800A893AC /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		A089295B27A4461D00A893AC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A089295D27A44F5E00A893AC /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		A08BD718278F6EAC00B153BC /* GameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08BD71B278F6EAC00B153BC /* GameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStreamApp.swift; sourceTree = "<group>"; };
 		A08BD71D278F6EAC00B153BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A08BD71F278F6EAD00B153BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08BD722278F6EAD00B153BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A08BD729278F73A300B153BC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A08BD72B278F745200B153BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A08BD72D278F74E400B153BC /* AppLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogo.swift; sourceTree = "<group>"; };
+		A08BD734278F78F200B153BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A08BD736278F790800B153BC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A08BD738278F79FB00B153BC /* LoginSingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSingUpView.swift; sourceTree = "<group>"; };
+		A08BD73A278F848B00B153BC /* AppTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextFields.swift; sourceTree = "<group>"; };
+		A08C1471279CAD800042D62A /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		A08C1473279CAE600042D62A /* VideoGalleyImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGalleyImages.swift; sourceTree = "<group>"; };
+		A08C1475279CAF0F0042D62A /* SimilarGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarGames.swift; sourceTree = "<group>"; };
+		A0A751752790D13400BB06C5 /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		A0E52555279324B100172E54 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		A0FBC1E727946A0B001FF1EF /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		A0FBC1E927946A1D001FF1EF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A0FBC1EB27946A37001FF1EF /* VideoUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUrl.swift; sourceTree = "<group>"; };
+		A0FBC1ED27946F2F001FF1EF /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +117,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00488402795FEE80048E886 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A02D831927938A600055EEC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A02D831B27938A9C0055EEC0 /* Model.swift */,
+				A0FBC1E727946A0B001FF1EF /* Games.swift */,
+				A0FBC1E927946A1D001FF1EF /* Game.swift */,
+				A0FBC1EB27946A37001FF1EF /* VideoUrl.swift */,
+				A0508975279F880C005E1B97 /* SearchResponse.swift */,
+				A089295B27A4461D00A893AC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A02D831A27938A790055EEC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A02D831D27938AA70055EEC0 /* GamesViewModel.swift */,
+				A0508973279F86DA005E1B97 /* SearchViewModel.swift */,
+				A089295927A445C800A893AC /* EditProfileViewModel.swift */,
+				A089295D27A44F5E00A893AC /* SUImagePickerView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		A08BD70F278F6EAC00B153BC = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +169,11 @@
 			children = (
 				A08BD71B278F6EAC00B153BC /* GameStreamApp.swift */,
 				A08BD71D278F6EAC00B153BC /* ContentView.swift */,
-				A08BD71F278F6EAD00B153BC /* Assets.xcassets */,
+				A08BD733278F78DA00B153BC /* Views */,
+				A02D831927938A600055EEC0 /* Models */,
+				A02D831A27938A790055EEC0 /* ViewModels */,
+				A08BD731278F75DB00B153BC /* Common */,
+				A08BD732278F75F700B153BC /* Assets */,
 				A08BD721278F6EAD00B153BC /* Preview Content */,
 			);
 			path = GameStream;
@@ -65,6 +185,79 @@
 				A08BD722278F6EAD00B153BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A08BD730278F75B300B153BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A08BD72D278F74E400B153BC /* AppLogo.swift */,
+				A08BD738278F79FB00B153BC /* LoginSingUpView.swift */,
+				A0048A51279210B20061E2B4 /* TabHolder.swift */,
+				A0048A59279223240061E2B4 /* SearchBarView.swift */,
+				A0048A5D279235490061E2B4 /* AppVideoPlayer.swift */,
+				A0048A5F279237720061E2B4 /* PopularsView.swift */,
+				A0E52555279324B100172E54 /* Title.swift */,
+				A00BA24327933F1F0026ABB3 /* VideoItem.swift */,
+				A00BA24527933FB00026ABB3 /* MayLikeView.swift */,
+				A00BA24727933FF40026ABB3 /* RecomendedView.swift */,
+				A00BA249279340260026ABB3 /* CategoriesRecomendedView.swift */,
+				A00BA24B2793404E0026ABB3 /* CategoryItem.swift */,
+				A0048841279600850048E886 /* GameItem.swift */,
+				A0343FB3279B83C800F16CE4 /* SwiftUIView.swift */,
+				A0343FB5279B83D600F16CE4 /* SimpleVideoPlayer.swift */,
+				A08C1471279CAD800042D62A /* VideoData.swift */,
+				A08C1473279CAE600042D62A /* VideoGalleyImages.swift */,
+				A08C1475279CAF0F0042D62A /* SimilarGames.swift */,
+				A048071527A34ACF00CD6F27 /* SettingsButton.swift */,
+				A048071727A34B0500CD6F27 /* SettingsToggleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A08BD731278F75DB00B153BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A08BD72B278F745200B153BC /* Constants.swift */,
+				A08BD73D278F86BE00B153BC /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A08BD732278F75F700B153BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A08BD71F278F6EAD00B153BC /* Assets.xcassets */,
+				A08BD729278F73A300B153BC /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A08BD733278F78DA00B153BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A08BD730278F75B300B153BC /* Components */,
+				A0048A4F27920E0E0061E2B4 /* MainView.swift */,
+				A08BD734278F78F200B153BC /* LoginView.swift */,
+				A08BD736278F790800B153BC /* SignUpView.swift */,
+				A0048A53279218370061E2B4 /* HomeView.swift */,
+				A0FBC1ED27946F2F001FF1EF /* GamesView.swift */,
+				A080B8B5279B6D1800B8747A /* GameView.swift */,
+				A048070F27A339C700CD6F27 /* FavoriteGamesView.swift */,
+				A048071127A33E8200CD6F27 /* ProfileView.swift */,
+				A048071927A34C9100CD6F27 /* EditProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A08BD73D278F86BE00B153BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A08BD73A278F848B00B153BC /* AppTextFields.swift */,
+				A0A751752790D13400BB06C5 /* AppButtons.swift */,
+				A0048A5527921B470061E2B4 /* AppViews.swift */,
+				A048071327A33F9300CD6F27 /* Texts.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +276,9 @@
 			dependencies = (
 			);
 			name = GameStream;
+			packageProductDependencies = (
+				A004883F2795FEE80048E886 /* Kingfisher */,
+			);
 			productName = GameStream;
 			productReference = A08BD718278F6EAC00B153BC /* GameStream.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +307,9 @@
 				Base,
 			);
 			mainGroup = A08BD70F278F6EAC00B153BC;
+			packageReferences = (
+				A004883E2795FEE80048E886 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A08BD719278F6EAC00B153BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08BD72A278F73A300B153BC /* Colors.xcassets in Resources */,
 				A08BD723278F6EAD00B153BC /* Preview Assets.xcassets in Resources */,
 				A08BD720278F6EAD00B153BC /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +337,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A089295A27A445C800A893AC /* EditProfileViewModel.swift in Sources */,
+				A0343FB6279B83D600F16CE4 /* SimpleVideoPlayer.swift in Sources */,
+				A048071227A33E8200CD6F27 /* ProfileView.swift in Sources */,
+				A00BA24A279340260026ABB3 /* CategoriesRecomendedView.swift in Sources */,
+				A00BA24827933FF40026ABB3 /* RecomendedView.swift in Sources */,
+				A0FBC1EE27946F2F001FF1EF /* GamesView.swift in Sources */,
+				A0048842279600850048E886 /* GameItem.swift in Sources */,
+				A0508976279F880C005E1B97 /* SearchResponse.swift in Sources */,
+				A080B8B6279B6D1800B8747A /* GameView.swift in Sources */,
+				A048071827A34B0500CD6F27 /* SettingsToggleButton.swift in Sources */,
+				A0508974279F86DA005E1B97 /* SearchViewModel.swift in Sources */,
+				A0A751762790D13400BB06C5 /* AppButtons.swift in Sources */,
+				A0FBC1EA27946A1D001FF1EF /* Game.swift in Sources */,
+				A0048A52279210B20061E2B4 /* TabHolder.swift in Sources */,
+				A00BA24627933FB00026ABB3 /* MayLikeView.swift in Sources */,
 				A08BD71E278F6EAC00B153BC /* ContentView.swift in Sources */,
+				A08C1472279CAD800042D62A /* VideoData.swift in Sources */,
+				A0048A5627921B470061E2B4 /* AppViews.swift in Sources */,
 				A08BD71C278F6EAC00B153BC /* GameStreamApp.swift in Sources */,
+				A0FBC1E827946A0B001FF1EF /* Games.swift in Sources */,
+				A0048A5027920E0E0061E2B4 /* MainView.swift in Sources */,
+				A08BD72E278F74E400B153BC /* AppLogo.swift in Sources */,
+				A08C1476279CAF0F0042D62A /* SimilarGames.swift in Sources */,
+				A089295C27A4461D00A893AC /* User.swift in Sources */,
+				A048071A27A34C9100CD6F27 /* EditProfileView.swift in Sources */,
+				A0048A5E279235490061E2B4 /* AppVideoPlayer.swift in Sources */,
+				A00BA24427933F1F0026ABB3 /* VideoItem.swift in Sources */,
+				A0FBC1EC27946A37001FF1EF /* VideoUrl.swift in Sources */,
+				A08BD735278F78F200B153BC /* LoginView.swift in Sources */,
+				A08BD737278F790800B153BC /* SignUpView.swift in Sources */,
+				A02D831C27938A9C0055EEC0 /* Model.swift in Sources */,
+				A0E52556279324B100172E54 /* Title.swift in Sources */,
+				A08BD739278F79FB00B153BC /* LoginSingUpView.swift in Sources */,
+				A0048A5A279223240061E2B4 /* SearchBarView.swift in Sources */,
+				A0048A54279218370061E2B4 /* HomeView.swift in Sources */,
+				A08BD72C278F745200B153BC /* Constants.swift in Sources */,
+				A089295E27A44F5E00A893AC /* SUImagePickerView.swift in Sources */,
+				A0343FB4279B83C800F16CE4 /* SwiftUIView.swift in Sources */,
+				A0048A60279237720061E2B4 /* PopularsView.swift in Sources */,
+				A048071627A34AD000CD6F27 /* SettingsButton.swift in Sources */,
+				A00BA24C2793404E0026ABB3 /* CategoryItem.swift in Sources */,
+				A08C1474279CAE600042D62A /* VideoGalleyImages.swift in Sources */,
+				A048071027A339C700CD6F27 /* FavoriteGamesView.swift in Sources */,
+				A02D831E27938AA70055EEC0 /* GamesViewModel.swift in Sources */,
+				A048071427A33F9300CD6F27 /* Texts.swift in Sources */,
+				A08BD73B278F848B00B153BC /* AppTextFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +516,7 @@
 				DEVELOPMENT_TEAM = MSYHMP9FX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is required for take profile picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +546,7 @@
 				DEVELOPMENT_TEAM = MSYHMP9FX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is required for take profile picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +587,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A004883E2795FEE80048E886 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A004883F2795FEE80048E886 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A004883E2795FEE80048E886 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A08BD710278F6EAC00B153BC /* Project object */;
 }
