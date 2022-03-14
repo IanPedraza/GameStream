@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @State var username: String = ""
+    @State var username: String = EMPTY_STRING
     
     var body: some View {
         

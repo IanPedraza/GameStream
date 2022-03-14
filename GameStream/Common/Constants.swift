@@ -22,6 +22,7 @@ struct Resources {
     static let PROFILE_PICTURE: String = "ProfilePicture"
     static let PROFILE_PICTURE_FILE_NAME: String = "prfile-photo"
     static let PLACEHOLDER_IMG: String = "The Witcher 3"
+    static let PLATZI_LOGO: String = "platzi"
     
     static let VIDEOS: [String] = [
         "https://cdn.cloudflare.steamstatic.com/steam/apps/256658589/movie480.mp4",

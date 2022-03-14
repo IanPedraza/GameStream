@@ -27,6 +27,9 @@ struct GamesView: View {
             
             VStack {
                 
+                Text("Juegos")
+                    .title()
+                
                 ScrollView {
                     
                     LazyVGrid(columns: gridForm,spacing: 8.0) {

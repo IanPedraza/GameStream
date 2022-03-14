@@ -32,14 +32,14 @@ struct SignUpView: View {
 
 struct SignUpFields: View {
     
-    @State var email: String = ""
-    @State var password: String = ""
-    @State var passwordConfirm: String = ""
+    @State var email: String = EMPTY_STRING
+    @State var password: String = EMPTY_STRING
+    @State var passwordConfirm: String = EMPTY_STRING
     
     var body: some View {
         
         VStack {
-            TextField("", text: $email)
+            TextField(EMPTY_STRING, text: $email)
                 .field(
                     title: "Correo Electrónico*",
                     hint: "ejemplo@gmail.com",
@@ -47,14 +47,14 @@ struct SignUpFields: View {
                 )
                 .frame(width: 300)
             
-            SecureField("", text: $password)
+            SecureField(EMPTY_STRING, text: $password)
                 .field(
                     title: "Contraeña*",
                     hint: "Escribe tu contraseña",
                     when: password.isEmpty
                 )
             
-            SecureField("", text: $passwordConfirm)
+            SecureField(EMPTY_STRING, text: $passwordConfirm)
                 .field(
                     title: "Confirmar Contraeña*",
                     hint: "Vuelve a escribir tu contraseña",

@@ -23,7 +23,7 @@ struct SettingsToggleButton: View {
                 
                 Spacer()
                 
-               Toggle("", isOn: isOn)
+               Toggle(EMPTY_STRING, isOn: isOn)
                 
             }
             .padding()

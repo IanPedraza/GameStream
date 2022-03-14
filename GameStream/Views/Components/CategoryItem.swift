@@ -9,7 +9,20 @@ import SwiftUI
 
 struct CategoryItem: View, Hashable {
     
+    var device = UIDevice.current.model
     var icon: String
+    
+    var width: Double {
+        device == "iPad" ? 320 : 160
+    }
+    
+    var height: Double {
+        device == "iPad" ? 180 : 90
+    }
+    
+    var iconSize: Double {
+        device == "iPad" ? 84 : 42
+    }
     
     var body: some View {
         
@@ -19,12 +32,18 @@ struct CategoryItem: View, Hashable {
                 
                 RoundedRectangle(cornerRadius: 8.0)
                     .fill(Color(AppColors.SECONDARY))
-                    .frame(width: 160, height: 90)
+                    .frame(
+                        width: width,
+                        height: height
+                    )
                 
                 Image(icon)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 42, height: 42)
+                    .frame(
+                        width: iconSize,
+                        height: iconSize
+                    )
                 
             }
             

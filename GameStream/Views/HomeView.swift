@@ -60,5 +60,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .previewDevice("iPad Pro (11-inch) (3rd generation)")
     }
 }

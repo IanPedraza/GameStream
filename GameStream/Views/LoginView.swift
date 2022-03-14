@@ -29,8 +29,8 @@ struct LoginView: View {
 
 struct LoginFields: View {
     
-    @State var email: String = ""
-    @State var password: String = ""
+    @State var email: String = EMPTY_STRING
+    @State var password: String = EMPTY_STRING
     
     @State var isHomeActive: Bool = false
     
@@ -38,14 +38,14 @@ struct LoginFields: View {
         
         VStack {
             
-            TextField("", text: $email)
+            TextField(EMPTY_STRING, text: $email)
                 .field(
                     title: "Correo Electrónico",
                     hint: "ejemplo@gmail.com",
                     when: email.isEmpty
                 )
             
-            SecureField("", text: $password)
+            SecureField(EMPTY_STRING, text: $password)
                 .field(
                     title: "Contraeña",
                     hint: "Introduce tu contraseña",

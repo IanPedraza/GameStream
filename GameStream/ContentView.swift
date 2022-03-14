@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
+        
         NavigationView {
             ZStack {
                 Spacer()
@@ -18,13 +20,16 @@ struct ContentView: View {
                 VStack {
                     AppLogo()
                         .padding(.bottom, 42.0)
+                        .offset(x: 0.0, y: 10.0)
                     
                     LoginSingUpView()
                 }
             }
             .navigationBarHidden(true)
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

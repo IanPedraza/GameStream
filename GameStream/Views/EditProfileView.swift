@@ -38,25 +38,27 @@ struct EditProfileSectionView: View {
     
     @State var user: User = User()
     
+    let editProfileViewModel = EditProfileViewModel()
+    
     var body: some View {
         
         VStack(alignment: .leading) {
             
-            TextField("", text: $user.email)
+            TextField(EMPTY_STRING, text: $user.email)
                 .field(
                     title: "Correo electrónico",
                     hint: "ejemplo@gmail.com",
                     when: user.email.isEmpty
                 )
             
-            TextField("", text: $user.password)
+            SecureField(EMPTY_STRING, text: $user.password)
                 .field(
                     title: "Contraseña",
                     hint: "Introduce tu nueva contraseña",
                     when: user.password.isEmpty
                 )
             
-            TextField("", text: $user.username)
+            TextField(EMPTY_STRING, text: $user.username)
                 .field(
                     title: "Nombre",
                     hint: "Introduce tu nombre de usuario",
@@ -72,11 +74,17 @@ struct EditProfileSectionView: View {
         }
         .padding(.horizontal, 32.0)
         .padding(.top, 32)
+        .onAppear {
+            guard let user = editProfileViewModel.getData() else {
+                return
+            }
+            
+            self.user = user
+        }
         
     }
     
     private func updateData() {
-        let editProfileViewModel = EditProfileViewModel()
         let _ = editProfileViewModel.saveData(user: user)
     }
     
@@ -106,7 +114,7 @@ struct EditPhotoSectionView: View {
                         .sheet(isPresented: $isCameraActive) {
                             
                             SUImagePickerView(
-                                sourceType: .camera,
+                                sourceType: .photoLibrary,
                                 image: self.$profileImage,
                                 isPresented: self.$isCameraActive
                             )

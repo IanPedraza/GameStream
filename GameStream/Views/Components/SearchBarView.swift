@@ -11,7 +11,7 @@ struct SearchBarView: View {
     
     @ObservedObject var searchViewModel = SearchViewModel()
     
-    @State var searchQuery: String = ""
+    @State var searchQuery: String = EMPTY_STRING
     @State var isQueryEmpty: Bool = false
     
     @State var isGameViewActive: Bool = false
@@ -21,7 +21,7 @@ struct SearchBarView: View {
         
         HStack {
             
-            TextField("", text: $searchQuery)
+            TextField(EMPTY_STRING, text: $searchQuery)
                 .field(
                     hint: "Búscar un video",
                     when: searchQuery.isEmpty,
